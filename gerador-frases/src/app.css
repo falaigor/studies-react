@@ -1,0 +1,46 @@
+#page-random {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-random .content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page-random .content-wrapper h3 {
+  font: 700 24px Nunito, sans-serif;
+  font-style: italic;
+  padding: 0 20px;
+  color: #5222d0;
+  text-align: center;
+}
+
+#page-random .content-wrapper img {
+  width: 100%;
+  max-width: 800px;
+}
+
+#page-random .content-wrapper .bottom-random {
+  font-size: 30px;
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: #5222d0;
+  color: #f3f3f3;
+  border:none;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+#page-random .content-wrapper .bottom-random:hover {
+  background-color: #cd5b57;
+}
