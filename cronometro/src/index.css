@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Nunito', sans-serif;
+}
+
+input,
+button,
+body,
+textarea {
+  font-family: 'Nunito', sans-serif;
+}
