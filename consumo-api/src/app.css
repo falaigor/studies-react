@@ -1,0 +1,83 @@
+#page-post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-post header {
+  width: 850px;
+  height: 70px;
+  background-color: #5374ff;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-post header h1{
+  color: #f3f3f3;
+}
+
+#page-post .post{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 800px;
+  background-color: #FFF;
+  border-radius: 20px;
+  margin: 12px;
+  padding: 15px;
+
+  box-shadow: 5px 5px 10px #c5c5c5;
+}
+
+#page-post .capa {
+  width: 400px;
+  height: 340px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+#page-post .info {
+  width: 100%;
+  padding: 0 20px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+
+#page .info h1 {
+  color: #37383c
+}
+
+#page-post .info p{
+  font-weight: 300;
+  color: #7c909f;
+}
+
+#page-post  .btn {
+  width: 150px;
+  height: 50px;
+  bottom: 0;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #5374ff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.3s ease;
+
+  text-decoration: none;
+}
+#page-post .btn:hover {
+  background: #374fb1;
+} 
