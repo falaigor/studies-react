@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 18px Nunito, sans-serif;
+
+}
+
+#page-form {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-form form {
+  width: 800px;
+  height: auto;
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-form form input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: #f8f8f8 1px solid;
+  background: #f8f8f8;
+  transition: all 0.2s ease;
+}
+
+#page-form form input:focus {
+  background: #fff;
+  border: #ececec 1px solid;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+#page-form form button {
+  width: 100%;
+  height: 50px;
+  background: #4796ff;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+  font-weight: 800;
+}
+
+#page-form form button:hover {
+  background: #2e68b5;
+}
+
+#page-form form p {
+  text-align: center;
+  margin: 25px 0 0 0;
+}
