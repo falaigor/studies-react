@@ -82,7 +82,9 @@ const App = () => {
               <h2>{resultado}</h2>
             </div>
 
-            <button className="next">Começar Novamente</button>
+            <a href="/" className="next">
+              Começar Novamente
+            </a>
           </div>
         ) : (
           <form onSubmit={(event) => event.preventDefault()}>
