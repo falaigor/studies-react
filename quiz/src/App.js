@@ -3,6 +3,8 @@ import Radio from './Form/Radio';
 
 import './App.css';
 
+import trophyImg from './images/trophy.png';
+
 const perguntas = [
   {
     pergunta: 'Qual método é utilizado para criar componentes?',
@@ -59,7 +61,7 @@ const App = () => {
     setResultado(`Você acertou: ${corretas.length} de ${perguntas.length}`);
   }
 
-  function handleClick() {
+  function handleClickNext() {
     if (slide < perguntas.length - 1) {
       setSlide(slide + 1);
     } else {
@@ -73,12 +75,12 @@ const App = () => {
       <main>
         {resultado ? (
           <div className="result">
-            <div className="congratulations">
+            <div className="congratulations green">
               <h1>Parabéns!</h1>
               <p>Você completou o questionário</p>
+              <img src={trophyImg} width="100%" alt="" />
+              <h2>{resultado}</h2>
             </div>
-
-            <p>{resultado}</p>
 
             <button className="next">Começar Novamente</button>
           </div>
@@ -94,7 +96,7 @@ const App = () => {
               />
             ))}
 
-            <button className="next" onClick={handleClick}>
+            <button className="next" onClick={handleClickNext}>
               Próxima
             </button>
           </form>

@@ -19,6 +19,11 @@
   --color-box-base: #ffffff;
   --color-box-footer: #fafafc;
 
+
+  --color-red: #EB5B57;
+  --color-yellow: #EBC640;
+  --color-green: #04bf58;
+
   font-size: 60%;
 }
 

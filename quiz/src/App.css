@@ -28,11 +28,10 @@
 #page-quiz main .result .congratulations {
   width: 100%;
   height: auto;
-  min-height: 24rem;
+  min-height: 30rem;
   margin: -0.8rem 0 0 0;
   padding: 2rem;
   border-radius: 0.8rem;
-  background: var(--color-secundary-dark);
   border: 0;
   display: inline;
   align-items: center;
@@ -40,8 +39,19 @@
   justify-content: center;
 }
 
+.green {
+  background: var(--color-green);
+}
+
+
 #page-quiz main .result .congratulations h1 {
   color: var(--color-title-in-primary);
+  display: block;
+}
+
+#page-quiz main .result .congratulations h2 {
+  color: var(--color-title-in-primary);
+  font-size: 2.1rem;
   display: block;
 }
 
@@ -65,6 +75,7 @@
   width: 100%;
   border: 0;
   padding: 0 2.4rem;
+  
 }
 
 #page-quiz main form fieldset {
