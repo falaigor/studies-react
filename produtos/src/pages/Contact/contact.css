@@ -1,0 +1,23 @@
+#page-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+#page-contact img {
+  max-width: 100%;
+  border-radius: 2.4rem;
+}
+
+#page-contact .info h1 {
+  color: var(--color-title-in-primary);
+}
+
+#page-contact .info ul {
+  padding: 0;
+  list-style: none;
+}
+
+#page-contact .info ul li{
+  color: var(--color-text-in-primary);
+}

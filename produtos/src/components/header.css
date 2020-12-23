@@ -1,0 +1,28 @@
+#header {
+  margin-bottom: 2rem;
+}
+
+#header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#header ul li {
+  margin-right: 1.4rem;
+}
+
+#header ul li a {
+  display: block;
+  text-decoration: none;
+  background: var(--color-primary);
+  color: var(--color-title-in-primary);
+  padding: 1.3rem;
+  border-radius: 2.4rem;
+  transition: all 0.2s ease;
+}
+
+#header ul li a:hover {
+  background: var(--color-primary-darker);
+}
