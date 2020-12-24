@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
-import Footer from './components/Footer';
 import Contact from './pages/Contact/Contact';
 import ListProducts from './pages/ListProducts/ListProducts';
 import Product from './pages/Product/Product';
@@ -21,7 +20,6 @@ function App() {
           </Routes>
         </div>
 
-        <Footer />
       </BrowserRouter>
     </div>
   );
