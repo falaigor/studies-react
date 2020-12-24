@@ -36,13 +36,12 @@ body,
 body {
   background: var(--color-background);
   margin: 2rem;
-  overflow: hidden;
 }
-/* 
+ 
 #root {
   display: flex;
   justify-content: center;
-} */
+} 
 
 body,
 input,
@@ -54,7 +53,8 @@ textarea {
 
 .container {
   width: 90vw;
-  max-width: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media (min-width: 700px) {

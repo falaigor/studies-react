@@ -16,7 +16,7 @@ export const GlobalStorage = ({ children }) => {
   }
 
   return (
-    <GlobalContext.Provider value={{ dados, setDados, limparDados }}>
+    <GlobalContext.Provider value={{ dados, setDados }}>
       {children}
     </GlobalContext.Provider>
   );
